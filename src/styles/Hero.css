@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.background-img {
+    width: 100vw;
+    height: 100%;
+}
+
+
+.hero-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    /* Adjust the distance from the top as needed */
+    left: 50%;
+    /* Position it at the center horizontally */
+    transform: translateX(-40%);
+    /* Shift it left by half its own width */
+}
+
+
+.hero-content form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-content form button {
+    border: 0;
+    background-color: rgb(255, 123, 0);
+    border-radius: 20px;
+    border-color: white;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.hero-content form button :hover {
+    zoom: 1;
+}
+
+.hero-content form input {
+    width: 500px;
+    border-color: white;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.search-btn {
+    width: 40px;
+    height: 40px;
+}
+
+
+.header-tagline {
+    max-width: 518px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.header-tagline p {
+    font-size: 60px;
+}
+
+.header-tagline p:nth-child(1),
+.header-tagline p:nth-child(3) {
+    color: rgb(255, 123, 0);
+}
+
+.tagline-top {
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+}
+
+
+.tagline-buttom {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.header-tagline .welcome p {
+    font-size: 20px;
+    color: black;
+}
+
+
+.sign-in {
+    background: rgba(105, 105, 105, 0.19);
+    border: 1px black;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.header-tagline .sign-in p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.header-tagline .sign-in form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.header-tagline .sign-in form #country-code {
+    background-color: rgb(66, 62, 62);
+    color: white;
+    border-radius: 7px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-size: 20px;
+}
+
+.sign-in form input {
+    width: 150px;
+    height: 35px;
+    border-radius: 7px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.sign-in form .sig-in-btn {
+    width: 100%;
+    margin: 30px 0;
+}
+
+
+.sign-in form button {
+    border: 0;
+    background-color: rgb(255, 123, 0);
+    border-radius: 20px;
+    border-color: white;
+    width: 100px;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.header-tagline .sign-in form .option {
+    font-size: 15px;
+}
+
+
+.login-acc-opt {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.login-acc-opt .login-acc-img {
+    width: 40px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 5px;
+}

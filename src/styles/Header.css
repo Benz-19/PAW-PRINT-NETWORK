@@ -1,0 +1,26 @@
+header {
+    position: absolute;
+    top: 0;
+    text-align: right;
+    padding: 50px 0;
+    width: 90%;
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style-type: none;
+    color: #263e69;
+}
+
+.nav-bar ul li {
+    margin: 0 10px;
+    transition: all 0.7s ease-in;
+    cursor: pointer;
+}
+
+.nav-bar ul li:hover {
+    color: gray;
+    zoom: 1.03;
+}
