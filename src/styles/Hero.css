@@ -16,11 +16,14 @@
     flex-wrap: wrap;
     flex-direction: column;
     position: absolute;
-    top: 200px;
+    overflow-y: scroll;
+    /* Keep the scroll functionality */
+    scrollbar-width: none;
+    top: 150px;
     /* Adjust the distance from the top as needed */
     left: 50%;
     /* Position it at the center horizontally */
-    transform: translateX(-40%);
+    transform: translateX(-50%);
     /* Shift it left by half its own width */
 }
 
@@ -28,6 +31,7 @@
 .hero-content form {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .hero-content form button {
@@ -52,6 +56,9 @@
     border-radius: 20px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Josefin Sans';
 }
 
 .search-btn {
@@ -61,19 +68,28 @@
 
 
 .header-tagline {
-    max-width: 518px;
+    max-width: fit-content;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
 }
 
 .header-tagline p {
     font-size: 60px;
 }
 
+.tagline-top,
+.tagline-buttom {
+    font-family: 'inter';
+    display: flex;
+    justify-content: center;
+}
+
 .header-tagline p:nth-child(1),
 .header-tagline p:nth-child(3) {
     color: rgb(255, 123, 0);
+    width: fit-content;
 }
 
 .tagline-top {
@@ -90,9 +106,18 @@
     font-weight: bold;
 }
 
+.welcome {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .header-tagline .welcome p {
     font-size: 20px;
     color: black;
+    font-family: 'Josefin Sans';
+
 }
 
 
@@ -135,9 +160,13 @@
     border-radius: 7px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Josefin Sans';
+
 }
 
-.sign-in form .sig-in-btn {
+.sign-in form .sign-in-btn {
     width: 100%;
     margin: 30px 0;
 }
@@ -152,6 +181,12 @@
     height: 40px;
     overflow: hidden;
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.sign-in form button:hover {
+    background-color: gray;
+    transform: translateX(2px);
 }
 
 .header-tagline .sign-in form .option {
@@ -170,4 +205,21 @@
     height: auto;
     border-radius: 10px;
     margin: 0 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.login-acc-opt p {
+    border-radius: 27px;
+    cursor: pointer;
+    max-height: 43px;
+    overflow-y: hidden;
+}
+
+.login-acc-opt p:hover {
+    background-color: gray;
+    transform: translateY(-1px);
+}
+
+.login-acc-opt .login-acc-img:hover {
+    transform: translateY(-1px);
 }

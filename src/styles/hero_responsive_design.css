@@ -1,0 +1,1317 @@
+@media screen and (min-width:900px)and (max-width:1115px) {
+    .hero-section .hero-img-cont .background-img {
+        height: 900px;
+    }
+
+    .hero-content {
+        max-width: fit-content;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .hero-content form {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-tagline .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-tagline .welcome p {
+        font-size: 17px;
+        color: black;
+        text-align: center;
+        width: 100%;
+        text-wrap: wrap;
+    }
+
+    .hero-content form input:nth-child(1) {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-tagline {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tagline-top {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tagline-top p:nth-child(1),
+    .tagline-top p:nth-child(2) {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .header-tagline .tagline-buttom {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .tagline-buttom p:nth-child(1),
+    .tagline-buttom p:nth-child(2) {
+        font-size: 40px;
+    }
+
+    /* Sign-in Section */
+    .sign-in {
+        width: fit-content;
+        margin-top: 7px;
+        margin-bottom: 0;
+    }
+
+    .sign-in p:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .header-tagline .sign-in form {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+    }
+
+    .sign-in form input {
+        height: 30px;
+        border-left: 0;
+        border: 1px solid white;
+    }
+
+    .header-tagline .sign-in form #country-code {
+        border: 1px solid gray;
+        height: 30px;
+    }
+
+    .sign-in form .sign-in-btn {
+        padding: 6px;
+        margin: 6px 0;
+    }
+}
+
+/* Responsive styles for 600px to 900px of screen width */
+
+@media screen and (min-width:850px) and (max-width:900px) {
+
+    .hero-section .hero-img-cont .background-img {
+        height: 900px;
+    }
+
+    .hero-content {
+        max-width: fit-content;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .hero-content form {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-tagline .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-tagline .welcome p {
+        font-size: 15px;
+        color: black;
+        text-align: center;
+        width: 100%;
+        text-wrap: wrap;
+    }
+
+    .hero-content form input:nth-child(1) {
+        width: 380px;
+        display: flex;
+        justify-content: center;
+        font-size: 17px;
+    }
+
+    .header-tagline {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tagline-top {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tagline-top p:nth-child(1),
+    .tagline-top p:nth-child(2) {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .header-tagline .tagline-buttom {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .tagline-buttom p:nth-child(1),
+    .tagline-buttom p:nth-child(2) {
+        font-size: 30px;
+    }
+
+    /* Sign-in Section */
+    .sign-in {
+        width: 450px;
+        margin-top: 20px;
+    }
+
+    .sign-in p:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .header-tagline .sign-in form {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+    }
+
+    .sign-in form input {
+        height: 25px;
+        border-left: 0;
+        border: 1px solid white;
+    }
+
+    .header-tagline .sign-in form #country-code {
+        height: 25px;
+        font-size: 15px;
+        border: 1px solid gray;
+    }
+
+    .sign-in form .sign-in-btn {
+        padding: 6px;
+        margin: 6px 0;
+    }
+
+    .login-acc-opt {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .login-acc-opt .login-acc-img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+/* Responsive styles for 678px to 849px of screen width */
+
+@media screen and (min-width:678px) and (max-width:849px) {
+
+    .hero-section .hero-img-cont .background-img {
+        height: 900px;
+    }
+
+    .hero-content {
+        max-width: fit-content;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        top: 7%;
+    }
+
+    .hero-content form {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 6px;
+    }
+
+    .header-tagline .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-tagline .welcome p {
+        font-size: 14px;
+        color: black;
+        text-align: center;
+        width: 100%;
+        text-wrap: wrap;
+    }
+
+    .hero-content form input:nth-child(1) {
+        width: 250px;
+        height: 39px;
+        display: flex;
+        justify-content: center;
+        font-size: 17px;
+        border: 1px solid grey;
+    }
+
+    .hero-content form button:nth-child(1) {
+        height: 34px;
+        width: 66px;
+        border: 1px solid grey;
+    }
+
+    .header-tagline {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tagline-top {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tagline-top p:nth-child(1),
+    .tagline-top p:nth-child(2) {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .header-tagline .tagline-buttom {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .tagline-buttom p:nth-child(1),
+    .tagline-buttom p:nth-child(2) {
+        font-size: 25px;
+    }
+
+    /* Sign-in Section */
+    .sign-in {
+        width: 380px;
+        margin-top: 20px;
+    }
+
+    .sign-in p:nth-child(1) {
+        font-size: 16px;
+    }
+
+    .header-tagline .sign-in form {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+    }
+
+    .sign-in form input {
+        height: 20px;
+        border-left: 0;
+        border: 1px solid white;
+    }
+
+    .header-tagline .sign-in form #country-code {
+        height: 20px;
+        font-size: 15px;
+        border: 1px solid gray;
+    }
+
+    .sign-in form .sign-in-btn {
+        padding: 6px;
+        margin: 6px 0;
+    }
+
+    .sign-in form .sign-in-btn button {
+        width: 80px;
+    }
+
+    .header-tagline .sign-in form .option {
+        font-size: 12px;
+    }
+
+    .login-acc-opt {
+        padding-top: 12px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .login-acc-opt .login-acc-img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+/* Responsive styles for 590px to 677px of screen width */
+
+@media screen and (min-width:590px) and (max-width:677px) {
+
+    .hero-section .hero-img-cont .background-img {
+        height: 900px;
+    }
+
+    .hero-content {
+        max-width: fit-content;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        top: 5%;
+    }
+
+    .hero-content form {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 6px;
+    }
+
+    .header-tagline .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-tagline .welcome p {
+        font-size: 11px;
+        color: black;
+        text-align: center;
+        width: 100%;
+        text-wrap: wrap;
+    }
+
+    .hero-content form input:nth-child(1) {
+        width: 250px;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        font-size: 9px;
+        border: 1px solid grey;
+    }
+
+    .hero-content form button:nth-child(2) {
+        width: 42px;
+        height: 28px;
+        border: 1px solid grey;
+    }
+
+    .search-btn {
+        width: 20px;
+        height: 20px;
+    }
+
+    .header-tagline {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tagline-top {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tagline-top p:nth-child(1),
+    .tagline-top p:nth-child(2) {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .header-tagline .tagline-buttom {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .tagline-buttom p:nth-child(1),
+    .tagline-buttom p:nth-child(2) {
+        font-size: 17px;
+    }
+
+    .welcome,
+    .tagline-top {
+        margin-top: 5px;
+    }
+
+    /* Sign-in Section */
+    .sign-in {
+        width: 380px;
+        margin-top: 20px;
+    }
+
+    .sign-in p:nth-child(1) {
+        font-size: 16px;
+    }
+
+    .header-tagline .sign-in form {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+    }
+
+    .sign-in form input {
+        height: 20px;
+        border-left: 0;
+        border: 1px solid white;
+    }
+
+    .header-tagline .sign-in form #country-code {
+        height: 20px;
+        font-size: 15px;
+        border: 1px solid gray;
+    }
+
+    .sign-in form .sign-in-btn {
+        padding: 6px;
+        margin: 6px 0;
+    }
+
+    .sign-in form .sign-in-btn button {
+        width: 120px;
+    }
+
+    .header-tagline .sign-in form .option {
+        font-size: 12px;
+    }
+
+    .login-acc-opt {
+        padding-top: 12px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .login-acc-opt .login-acc-img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+/* Responsive styles for 540px to 590px of screen width */
+
+@media screen and (min-width:540px) and (max-width:591px) {
+
+    .hero-section .hero-img-cont .background-img {
+        height: 900px;
+    }
+
+    .hero-content {
+        max-width: fit-content;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        top: 3%;
+    }
+
+    .hero-content form {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 6px;
+    }
+
+    .header-tagline .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-tagline .welcome p {
+        font-size: 11px;
+        color: black;
+        text-align: center;
+        width: 100%;
+        text-wrap: wrap;
+    }
+
+    .hero-content form input:nth-child(1) {
+        width: 170px;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        font-size: 9px;
+        border: 1px solid grey;
+    }
+
+    .hero-content form button:nth-child(2) {
+        width: 42px;
+        height: 28px;
+        border: 1px solid grey;
+    }
+
+    .search-btn {
+        width: 20px;
+        height: 20px;
+    }
+
+    .header-tagline {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tagline-top {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tagline-top p:nth-child(1),
+    .tagline-top p:nth-child(2) {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .header-tagline .tagline-buttom {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .tagline-buttom p:nth-child(1),
+    .tagline-buttom p:nth-child(2) {
+        font-size: 15px;
+    }
+
+    .welcome,
+    .tagline-top {
+        margin-top: 5px;
+    }
+
+    /* Sign-in Section */
+    .sign-in {
+        width: 260px;
+        margin-top: 7px;
+    }
+
+    .sign-in p:nth-child(1) {
+        font-size: 16px;
+    }
+
+    .header-tagline .sign-in form {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+    }
+
+    .sign-in form input {
+        height: 20px;
+        border-left: 0;
+        border: 1px solid white;
+    }
+
+    .header-tagline .sign-in form #country-code {
+        height: 20px;
+        font-size: 15px;
+        border: 1px solid gray;
+    }
+
+    .sign-in form .sign-in-btn {
+        padding: 6px;
+        margin: 6px 0;
+    }
+
+    .sign-in form .sign-in-btn button {
+        width: 120px;
+    }
+
+    .header-tagline .sign-in form .option {
+        font-size: 12px;
+    }
+
+    .login-acc-opt {
+        padding-top: 12px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .login-acc-opt .login-acc-img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+/* Responsive styles for 473px to 541px of screen width */
+
+@media screen and (min-width:473px) and (max-width:541px) {
+
+    .hero-section .hero-img-cont .background-img {
+        height: 900px;
+    }
+
+    .hero-content {
+        max-width: fit-content;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        top: 3%;
+    }
+
+    .hero-content form {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 6px;
+    }
+
+    .header-tagline .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-tagline .welcome p {
+        font-size: 11px;
+        color: black;
+        text-align: center;
+        width: 100%;
+        text-wrap: wrap;
+    }
+
+    .hero-content form input:nth-child(1) {
+        width: 170px;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        font-size: 9px;
+        border: 1px solid grey;
+    }
+
+    .hero-content form button:nth-child(2) {
+        width: 42px;
+        height: 28px;
+        border: 1px solid grey;
+    }
+
+    .search-btn {
+        width: 20px;
+        height: 20px;
+    }
+
+    .header-tagline {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tagline-top {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tagline-top p:nth-child(1),
+    .tagline-top p:nth-child(2) {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .header-tagline .tagline-buttom {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .tagline-buttom p:nth-child(1),
+    .tagline-buttom p:nth-child(2) {
+        font-size: 15px;
+    }
+
+    .welcome,
+    .tagline-top {
+        margin-top: 5px;
+    }
+
+    /* Sign-in Section */
+    .sign-in {
+        width: 260px;
+        margin-top: 7px;
+    }
+
+    .sign-in p:nth-child(1) {
+        font-size: 16px;
+    }
+
+    .header-tagline .sign-in form {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+        padding-top: 4px;
+    }
+
+    .sign-in form input {
+        height: 20px;
+        border-left: 0;
+        border: 1px solid white;
+    }
+
+    .header-tagline .sign-in form #country-code {
+        height: 20px;
+        font-size: 15px;
+        border: 1px solid gray;
+    }
+
+    .sign-in form .sign-in-btn {
+        padding: 6px;
+        margin: 6px 0;
+    }
+
+    .sign-in form .sign-in-btn button {
+        width: 100px;
+        height: 33px;
+    }
+
+    .header-tagline .sign-in form .option {
+        font-size: 12px;
+    }
+
+    .login-acc-opt {
+        padding-top: 12px;
+        padding-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .login-acc-opt .login-acc-img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+/* Responsive styles for 370px to 590px of screen width */
+
+@media screen and (min-width:370px) and (max-width:473px) {
+
+    .hero-section .hero-img-cont .background-img {
+        height: 900px;
+    }
+
+    .hero-content {
+        max-width: fit-content;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        top: 3%;
+    }
+
+    .hero-content form {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 6px;
+    }
+
+    .header-tagline .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-tagline .welcome p {
+        font-size: 9px;
+        color: black;
+        text-align: center;
+        width: 100%;
+        text-wrap: wrap;
+    }
+
+    .hero-content form input:nth-child(1) {
+        width: 170px;
+        height: 17px;
+        display: flex;
+        justify-content: center;
+        font-size: 9px;
+        border: 1px solid grey;
+    }
+
+    .hero-content form button:nth-child(2) {
+        width: 42px;
+        height: 17px;
+        border: 1px solid grey;
+        padding: 0;
+    }
+
+    .search-btn {
+        width: 17px;
+        height: 17px;
+    }
+
+    .header-tagline {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tagline-top {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tagline-top p:nth-child(1),
+    .tagline-top p:nth-child(2) {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .header-tagline .tagline-buttom {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .tagline-buttom p:nth-child(1),
+    .tagline-buttom p:nth-child(2) {
+        font-size: 12px;
+    }
+
+    .welcome,
+    .tagline-top {
+        margin-top: 5px;
+    }
+
+    /* Sign-in Section */
+    .sign-in {
+        width: 270px;
+        margin-top: 7px;
+    }
+
+    .sign-in #sign-in-prompt {
+        font-size: 12px;
+    }
+
+
+    .header-tagline .sign-in form {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+        padding-top: 4px;
+    }
+
+    .sign-in form input {
+        height: 20px;
+        border-left: 0;
+        border: 1px solid white;
+    }
+
+    .header-tagline .sign-in form #country-code {
+        height: 20px;
+        font-size: 15px;
+        border: 1px solid gray;
+    }
+
+    .sign-in form .sign-in-btn {
+        padding: 6px;
+        margin: 1px 0;
+        margin-inline: 40px;
+    }
+
+    .sign-in form .sign-in-btn button {
+        width: 79px;
+        height: 21px;
+        font-size: 10px;
+        padding: 0 6px;
+    }
+
+    .header-tagline .sign-in form .option {
+        font-size: 12px;
+    }
+
+    .login-acc-opt {
+        padding-top: 2px;
+        padding-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .login-acc-opt .login-acc-img {
+        width: 12px;
+        height: 12px;
+    }
+
+    /*  #pd-y is used to toggle the padding of the google image in the sign-in container */
+    .sign-in #pd-y {
+        font-size: 0;
+        padding-top: 10px;
+    }
+
+    #pd-y .login-acc-img {
+        width: 12px;
+        height: 12px;
+    }
+
+}
+
+
+
+/* Responsive styles for 250px to 361px of screen width */
+
+@media screen and (min-width:250px) and (max-width:361px) {
+
+    .hero-section .hero-img-cont .background-img {
+        height: 900px;
+    }
+
+    .hero-content {
+        max-width: fit-content;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        top: 3%;
+    }
+
+    .hero-content form {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 6px;
+    }
+
+    .header-tagline .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-tagline .welcome p {
+        font-size: 11px;
+        color: black;
+        text-align: center;
+        width: 100%;
+        text-wrap: wrap;
+    }
+
+    .hero-content form input:nth-child(1) {
+        width: 170px;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        font-size: 9px;
+        border: 1px solid grey;
+    }
+
+    .hero-content form button:nth-child(2) {
+        width: 42px;
+        height: 28px;
+        border: 1px solid grey;
+    }
+
+    .search-btn {
+        width: 17px;
+        height: 17px;
+    }
+
+    .header-tagline {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tagline-top {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tagline-top p:nth-child(1),
+    .tagline-top p:nth-child(2) {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .header-tagline .tagline-buttom {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .tagline-buttom p:nth-child(1),
+    .tagline-buttom p:nth-child(2) {
+        font-size: 15px;
+    }
+
+    .welcome,
+    .tagline-top {
+        margin-top: 5px;
+    }
+
+    /* Sign-in Section */
+    .sign-in {
+        width: 260px;
+        margin-top: 7px;
+    }
+
+    .sign-in p:nth-child(1) {
+        font-size: 16px;
+    }
+
+    .header-tagline .sign-in form {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+        padding-top: 4px;
+    }
+
+    .sign-in form input {
+        height: 20px;
+        border-left: 0;
+        border: 1px solid white;
+    }
+
+    .header-tagline .sign-in form #country-code {
+        height: 20px;
+        font-size: 15px;
+        border: 1px solid gray;
+    }
+
+    .sign-in form .sign-in-btn {
+        padding: 6px;
+        margin: 6px 0;
+    }
+
+    .sign-in form .sign-in-btn button {
+        width: 100px;
+        height: 33px;
+    }
+
+    .header-tagline .sign-in form .option {
+        font-size: 12px;
+    }
+
+    .login-acc-opt {
+        padding-top: 12px;
+        padding-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .login-acc-opt .login-acc-img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+/* Responsive styles for 260px to 371px of screen width */
+
+@media screen and (min-width:260px) and (max-width:371px) {
+
+    .hero-section .hero-img-cont .background-img {
+        height: 900px;
+    }
+
+    .hero-content {
+        max-width: fit-content;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        top: 3%;
+    }
+
+    .hero-content form {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2px;
+    }
+
+    .header-tagline .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-tagline .welcome p {
+        font-size: 6px;
+        color: black;
+        text-align: center;
+        width: 100%;
+        text-wrap: wrap;
+    }
+
+    .hero-content form input:nth-child(1) {
+        width: 150px;
+        height: 12px;
+        display: flex;
+        justify-content: center;
+        font-size: 9px;
+        border: 1px solid grey;
+    }
+
+    .hero-content form button:nth-child(2) {
+        width: 25px;
+        height: 12px;
+        border: 1px solid grey;
+        padding: 0;
+    }
+
+    .search-btn {
+        width: 12px;
+        height: 12px;
+    }
+
+    .header-tagline {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tagline-top {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tagline-top p:nth-child(1),
+    .tagline-top p:nth-child(2) {
+        font-size: 9px;
+        text-align: center;
+    }
+
+    .header-tagline .tagline-buttom {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .tagline-buttom p:nth-child(1),
+    .tagline-buttom p:nth-child(2) {
+        font-size: 9px;
+    }
+
+    .welcome,
+    .tagline-top {
+        margin-top: 2px;
+    }
+
+    .tagline-buttom {
+        margin-top: 0;
+    }
+
+    /* Sign-in Section */
+    .sign-in {
+        width: 190px;
+        margin-top: 1px;
+    }
+
+    .sign-in #sign-in-prompt {
+        font-size: 9px;
+    }
+
+
+    .header-tagline .sign-in form {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+        padding-top: 4px;
+    }
+
+    .sign-in form input {
+        height: 16px;
+        width: 100px;
+        border-left: 0;
+        border: 1px solid white;
+        font-size: 8px;
+    }
+
+    .header-tagline .sign-in form #country-code {
+        height: 16px;
+        font-size: 12px;
+        border: 1px solid gray;
+    }
+
+    .sign-in form .sign-in-btn {
+        padding: 6px;
+        margin: 1px 0;
+        margin-inline: 50px;
+    }
+
+    .sign-in form .sign-in-btn button {
+        width: 79px;
+        height: 21px;
+        font-size: 10px;
+        padding: 0 6px;
+    }
+
+    .header-tagline .sign-in form .option {
+        font-size: 12px;
+    }
+
+    .login-acc-opt {
+        padding-top: 2px;
+        padding-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .login-acc-opt .login-acc-img {
+        width: 12px;
+        height: 12px;
+    }
+
+    /*  #pd-y is used to toggle the padding of the google image in the sign-in container */
+    .sign-in #pd-y {
+        font-size: 0;
+        padding-top: 10px;
+    }
+
+    #pd-y .login-acc-img {
+        width: 12px;
+        height: 12px;
+    }
+
+}

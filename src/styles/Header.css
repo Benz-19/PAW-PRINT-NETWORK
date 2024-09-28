@@ -24,3 +24,101 @@ header {
     color: gray;
     zoom: 1.03;
 }
+
+/* Styling for both menu and close buttons */
+.menu-btn,
+.close-btn {
+    width: 20px;
+    height: 20px;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+}
+
+.menu-btn {
+    display: none;
+    right: 10px;
+    top: 15px;
+}
+
+/* Position the mobile-nav */
+#mobile-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    padding: 20px;
+}
+
+/* Centering the close button */
+#mobile-nav ul li:first-child {
+    display: flex;
+    justify-content: center;
+    /* Center the close button horizontally */
+    border-bottom: none;
+}
+
+.close-btn {
+    display: block;
+    /* Ensure it's displayed in mobile nav */
+    width: 20px;
+    height: 20px;
+}
+
+#mobile-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#mobile-nav ul li {
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Hide the nav-bar contents when using the mobile menu */
+.hide-nav {
+    display: none;
+}
+
+/* Display the menu button when screen width is 600px or below */
+@media screen and (max-width: 600px) {
+    .menu-btn {
+        display: block;
+        /* Show menu button */
+        position: fixed;
+        right: 10px;
+        top: 4px;
+    }
+
+    #mobile-nav ul li:first-child {
+        justify-content: center;
+        /* Centers the close button */
+    }
+
+    .nav-bar ul {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 849px) {
+    header {
+        padding: 12px 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 0;
+    }
+}

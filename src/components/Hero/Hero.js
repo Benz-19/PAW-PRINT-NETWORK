@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/Hero.css';
+import '../../styles/hero_responsive_design.css';
 import Header from '../Header/Header.js';
 import HeroBackgroundImage from '../../images/hero-background-image.jpg';
 import searchButton from '../../images/search-button.png';
@@ -18,8 +19,8 @@ const Hero = () => {
                 <Header />
 
                 <div className='hero-content'>
-                    <form for='' method='post'>
-                        <input type='text' placeholder='&nbsp;&nbsp;Search your thoughts' />
+                    <form method='post'>
+                        <input type='text' placeholder='Search your pets favorite food' />
                         <button type='submit' name='submit'>
                             <img src={searchButton} alt='Search Button' className='search-btn' />
                         </button>
@@ -29,8 +30,8 @@ const Hero = () => {
                     <div className='header-tagline'>
 
                         <div className='tagline-top'>
-                            <p>You</p>
-                            <p>&nbsp;love your pets, &nbsp;</p><br />
+                            <p>You&nbsp;</p>
+                            <p>love your pets,</p><br />
                         </div>
                         <div className='tagline-buttom'>
                             <p>so do&nbsp;</p>
@@ -43,41 +44,33 @@ const Hero = () => {
                         </div>
 
                         <div className='sign-in'>
-                            <p>Enter your number to get started</p>
-                            <form for='' method='post'>
+                            <p id='sign-in-prompt'>Enter your number to get started</p>
+                            <form method='post'>
                                 <p id='country-code'>+91</p>
-                                <input type='text' placeholder='&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0000 0000 0000' />
-                                <div className='sig-in-btn'>
+                                <input type='text' placeholder='0000 0000' />
+                                <div className='sign-in-btn'>
                                     <button type='submit' name='submit'>Get Started</button>
                                 </div>
                                 <p className='option'>Or Login Using</p>
                             </form>
 
                             <div className='login-acc-opt'>
-                                <img src={google} alt='Google img' className='login-acc-img' />
-                                <img src={facebook} alt='Facebook img' className='login-acc-img' />
-                                <img src={macApple} alt='Apple img' className='login-acc-img' />
+                                <p id='pd-y'>
+                                    <img src={google} alt='Google img' className='login-acc-img' />
+                                </p>
+                                <p>
+                                    <img src={facebook} alt='Facebook img' className='login-acc-img' />
+                                </p>
+                                <p>
+                                    <img src={macApple} alt='Apple img' className='login-acc-img' />
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <p>lorem js;gdgnffjdfnfjdk</p>
-            <p>lorem js;gdgnffjdfnfjdk</p>
-            <p>lorem js;gdgnffjdfnfjdk</p>
-            <p>lorem js;gdgnffjdfnfjdk</p>
-            <p>lorem js;gdgnffjdfnfjdk</p>
-            <p>lorem js;gdgnffjdfnfjdk</p>
-            <p>lorem js;gdgnffjdfnfjdk</p>
-            <p>lorem js;gdgnffjdfnfjdk</p>
-            <p>lorem js;gdgnffjdfnfjdk</p>
-            <p>lorem js;gdgnffjdfnfjdk</p>
-            <p>lorem js;gdgnffjdfnfjdk</p>
-            <p>lorem js;gdgnffjdfnfjdk</p>
-            <p>lorem js;gdgnffjdfnfjdk</p>
-            <p>lorem js;gdgnffjdfnfjdk</p>
-            <p>lorem js;gdgnffjdfnfjdk</p>
+
         </>
 
     );
