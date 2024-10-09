@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import '../../styles/Header.css';
-import '../../styles/hero_responsive_design.css';
-import menuBtn from '../../images/menu-btn.png';
-import closeBtn from '../../images/close-btn.png';
+import '../styles/Header.css';
+import '../styles/hero_responsive_design.css';
+import menuBtn from '../images/menu-btn.png';
+import closeBtn from '../images/close-btn.png';
 
 const Header = () => {
     const [isMobile, setIsMobile] = useState(false); // To track screen width

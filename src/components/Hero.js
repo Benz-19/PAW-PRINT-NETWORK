@@ -1,12 +1,12 @@
 import React from 'react';
-import '../../styles/Hero.css';
-import '../../styles/hero_responsive_design.css';
-import Header from '../Header/Header.js';
-import HeroBackgroundImage from '../../images/hero-background-image.jpg';
-import searchButton from '../../images/search-button.png';
-import google from '../../images/google.png';
-import macApple from '../../images/ic_baseline-apple.png';
-import facebook from '../../images/facebook.png';
+import '../styles/Hero.css';
+import '../styles/hero_responsive_design.css';
+import Header from './Header.js';
+import HeroBackgroundImage from '../images/hero-background-image.jpg';
+import searchButton from '../images/search-button.png';
+import google from '../images/google.png';
+import macApple from '../images/ic_baseline-apple.png';
+import facebook from '../images/facebook.png';
 
 const Hero = () => {
     return (
@@ -46,8 +46,8 @@ const Hero = () => {
                         <div className='sign-in'>
                             <p id='sign-in-prompt'>Enter your number to get started</p>
                             <form method='post'>
-                                <p id='country-code'>+91</p>
-                                <input type='text' placeholder='0000 0000' />
+                                <input type='number' id='country-code' placeholder='+91' required />
+                                <input type='text' placeholder='0000 0000' required />
                                 <div className='sign-in-btn'>
                                     <button type='submit' name='submit'>Get Started</button>
                                 </div>

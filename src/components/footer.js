@@ -1,5 +1,11 @@
 import React from 'react';
-import '../../styles/footer.css';
+
+import facebook from '../images/facebook.png';
+import instagram from '../images/instagram.png';
+import twitter from '../images/twitter.png';
+import linkedin from '../images/linkedin.png';
+
+import '../styles/footer.css';
 
 const Footer = () => {
     return (
@@ -26,19 +32,27 @@ const Footer = () => {
                 {/* Contact Information */}
                 <div className="footer-section">
                     <h4>Contact Us</h4>
-                    <p>Email: support@pawprintnetwork.com</p>
-                    <p>Phone: +1 (800) 123-4567</p>
-                    <p>Address: 123 Pet Lane, Pet City, PA 12345</p>
+                    <p>Email: --------------------------- </p>
+                    <p>Phone: --------------------------- </p>
+                    <p>Address: ---------------------------</p>
                 </div>
 
                 {/* Social Media Icons */}
                 <div className="footer-section">
                     <h4>Follow Us</h4>
                     <div className="social-icons">
-                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
-                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <p>
+                            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><img src={facebook} alt='facebook' /></a>
+                        </p>
+                        <p>
+                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><img src={twitter} alt='twitter' /></a>
+                        </p>
+                        <p>
+                            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><img src={instagram} alt='instagram' /></a>
+                        </p>
+                        <p>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt='linkedin' /></a>
+                        </p>
                     </div>
                 </div>
             </div>

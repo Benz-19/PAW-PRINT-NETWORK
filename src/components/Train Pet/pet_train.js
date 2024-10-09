@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import train_1 from '../../images/train pets/train_1.jpg';
 import train_2 from '../../images/train pets/train_2.jpg';
 import train_3 from '../../images/train pets/train_3.jpg';
@@ -7,79 +7,33 @@ import train_5 from '../../images/train pets/train_5.jpg';
 import train_6 from '../../images/train pets/train_6.jpg';
 
 import '../../styles/pet_train.css';
+import TrainCard from './pet_card';
 
 const PetTrain = () => {
+    const trainingData = useMemo(() => [
+        { Image: train_1, name: 'Arijit Singh', rating: 4.5, description: 'Lorem ipsum Lorem ipsum', large: true },
+        { Image: train_2, name: 'John Doe', rating: 4.2, description: 'Lorem ipsum Lorem ipsum' },
+        { Image: train_3, name: 'Jane Doe', rating: 4.8, description: 'Lorem ipsum Lorem ipsum', large: true },
+        { Image: train_4, name: 'Mike Johnson', rating: 4.7, description: 'Lorem ipsum Lorem ipsum' },
+        { Image: train_5, name: 'Samantha Brown', rating: 4.3, description: 'Lorem ipsum Lorem ipsum' },
+        { Image: train_6, name: 'Chris Evan', rating: 4.4, description: 'Lorem ipsum Lorem ipsum' },
+    ], []); // Memoize the trainingData array
+
     return (
         <div id='train-container'>
             <div className='train-section'>
                 <h3>Train your pets for a better future</h3>
                 <div className='train-grid'>
-                    <div className='grid-train-item large'>
-                        <img src={train_1} alt='train 1' />
-                        <div className="train-info">
-                            <div className="rating">
-                                <span>4.5/5.0</span>
-                                <span>⭐</span>
-                            </div>
-                            <h4>Arijit Singh</h4>
-                            <p>Lorem ipsum Lorem ipsum</p>
-                        </div>
-                    </div>
-                    <div className='grid-train-item'>
-                        <img src={train_2} alt='train 2' />
-                        <div className="train-info">
-                            <div className="rating">
-                                <span>4.2/5.0</span>
-                                <span>⭐</span>
-                            </div>
-                            <h4>John Doe</h4>
-                            <p>Lorem ipsum Lorem ipsum</p>
-                        </div>
-                    </div>
-                    <div className='grid-train-item large'>
-                        <img src={train_3} alt='train 3' />
-                        <div className="train-info">
-                            <div className="rating">
-                                <span>4.8/5.0</span>
-                                <span>⭐</span>
-                            </div>
-                            <h4>Jane Doe</h4>
-                            <p>Lorem ipsum Lorem ipsum</p>
-                        </div>
-                    </div>
-                    <div className='grid-train-item'>
-                        <img src={train_4} alt='train 4' />
-                        <div className="train-info">
-                            <div className="rating">
-                                <span>4.7/5.0</span>
-                                <span>⭐</span>
-                            </div>
-                            <h4>Mike Johnson</h4>
-                            <p>Lorem ipsum Lorem ipsum</p>
-                        </div>
-                    </div>
-                    <div className='grid-train-item'>
-                        <img src={train_5} alt='train 5' />
-                        <div className="train-info">
-                            <div className="rating">
-                                <span>4.3/5.0</span>
-                                <span>⭐</span>
-                            </div>
-                            <h4>Samantha Brown</h4>
-                            <p>Lorem ipsum Lorem ipsum</p>
-                        </div>
-                    </div>
-                    <div className='grid-train-item'>
-                        <img src={train_6} alt='train 6' />
-                        <div className="train-info">
-                            <div className="rating">
-                                <span>4.4/5.0</span>
-                                <span>⭐</span>
-                            </div>
-                            <h4>Chris Evan</h4>
-                            <p>Lorem ipsum Lorem ipsum</p>
-                        </div>
-                    </div>
+                    {trainingData.map((trainer, index) => (
+                        <TrainCard
+                            key={index}
+                            imgSrc={trainer.Image}
+                            name={trainer.name}
+                            rating={trainer.rating}
+                            description={trainer.description}
+                            large={trainer.large}
+                        />
+                    ))}
                 </div>
                 <button className='see-more'>See More</button>
             </div>
@@ -87,4 +41,4 @@ const PetTrain = () => {
     );
 };
 
-export default PetTrain;
+export default React.memo(PetTrain); // Wrap PetTrain with React.memo

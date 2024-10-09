@@ -9,6 +9,7 @@
 .groom-section {
     width: 80%;
     text-align: center;
+    overflow: hidden;
 }
 
 .groom-section h3 {
@@ -25,11 +26,9 @@
 .image-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    /* Grid with 6 columns */
     grid-auto-rows: 150px;
-    /* Define a base height for rows */
-    gap: 10px;
-    /* Adjusts the gap between images */
+    gap: 20px;
+    overflow: hidden;
 }
 
 .grid-item {
@@ -47,7 +46,6 @@
     grid-column: span 3;
     grid-row: span 2;
     height: 100%;
-    /* Adjust height */
 }
 
 .grid-item:nth-child(2) {
@@ -63,8 +61,8 @@
 }
 
 .grid-item:nth-child(4) {
-    grid-column: span 3;
-    grid-row: span 2;
+    grid-column: span 2;
+    grid-row: span 1;
     height: 100%;
 }
 
@@ -115,4 +113,49 @@
 
 .see-more:hover {
     background-color: #1C2833;
+}
+
+
+@media screen and (min-width:510px) and (max-width:700px) {
+
+
+    .grid-item:nth-child(3) {
+        grid-column: span 1;
+        grid-row: span 1;
+        height: 100%;
+    }
+
+    .grid-item:nth-child(8) {
+        grid-column: span 2;
+        grid-row: span 1;
+        height: 100%;
+    }
+}
+
+
+@media screen and (min-width:200px) and (max-width:500px) {
+
+    .grid-item:nth-child(1) {
+        grid-column: span 2;
+        grid-row: span 1;
+        height: 100%;
+    }
+
+    .grid-item:nth-child(3) {
+        grid-column: span 2;
+        grid-row: span 1;
+        height: 100%;
+    }
+
+    .grid-item:nth-child(5) {
+        grid-column: span 2;
+        grid-row: span 1;
+        height: 100%;
+    }
+
+    .grid-item:nth-child(8) {
+        grid-column: span 2;
+        grid-row: span 1;
+        height: 100%;
+    }
 }

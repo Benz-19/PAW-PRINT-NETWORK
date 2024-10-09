@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useMemo } from 'react';
 import doc_1 from '../../images/doctors/doc_1.jpg';
 import doc_2 from '../../images/doctors/doc_2.jpg';
 import doc_3 from '../../images/doctors/doc_3.jpg';
@@ -6,11 +6,11 @@ import doc_4 from '../../images/doctors/doc_4.jpg';
 import doc_5 from '../../images/doctors/doc_5.jpg';
 import doc_6 from '../../images/doctors/doc_6.jpg';
 import doc_7 from '../../images/doctors/doc_7.jpg';
-
 import '../../styles/book_appointment.css';
+import DoctorCard from './vet_card';
 
 const Book = () => {
-    const doctors = [
+    const doctors = useMemo(() => [
         { img: doc_1, name: 'Dr. Arijit Singh', rating: 4.5, description: 'Expert in cardiology' },
         { img: doc_2, name: 'Dr. Rohit Sharma', rating: 4.0, description: 'Pediatric specialist' },
         { img: doc_3, name: 'Dr. Kavita Rao', rating: 4.8, description: 'Neurologist' },
@@ -18,7 +18,7 @@ const Book = () => {
         { img: doc_5, name: 'Dr. Sameer Khan', rating: 4.7, description: 'Orthopedic surgeon' },
         { img: doc_6, name: 'Dr. Leena Desai', rating: 4.9, description: 'General Practitioner' },
         { img: doc_7, name: 'Dr. Anil Patel', rating: 4.3, description: 'Psychiatrist' }
-    ];
+    ], []); // useMemo to memoize the doctors array
 
     const containerRef = useRef(null);
 
@@ -27,7 +27,7 @@ const Book = () => {
 
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
-                if (window.scrollY >= 5700) {
+                if (window.scrollY >= 200) {
                     entry.target.classList.add('show');
                 }
             });
@@ -50,16 +50,13 @@ const Book = () => {
             <div className='carousel' ref={containerRef}>
                 <div className='carousel-inner'>
                     {doctors.map((doctor, index) => (
-                        <div className='doctor-card' key={index}>
-                            <img src={doctor.img} alt={`Doctor ${doctor.name}`} />
-                            <div className='doctor-info'>
-                                <div className="rating">
-                                    <span>{doctor.rating}/5.0</span> <span className="star">&#9733;</span>
-                                </div>
-                                <h4>{doctor.name}</h4>
-                                <p>{doctor.description}</p>
-                            </div>
-                        </div>
+                        <DoctorCard
+                            key={index}
+                            img={doctor.img}
+                            name={doctor.name}
+                            rating={doctor.rating}
+                            description={doctor.description}
+                        />
                     ))}
                 </div>
             </div>
@@ -68,4 +65,4 @@ const Book = () => {
     );
 };
 
-export default Book;
+export default React.memo(Book); // Wrap Book component with React.memo
