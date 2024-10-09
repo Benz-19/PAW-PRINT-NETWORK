@@ -17,90 +17,124 @@ const FancyRestaurant = () => {
                 <h3>Take your pets out to a fancy restaurant</h3>
                 <div className='restaurant-grid'>
                     <div className='grid-restaurant-item large'>
-                        <img src={restaurant_1} alt='restaurant 1' />
-                        <div className="restaurant-info">
+                        <div className='restaurant-info-top'>
                             <div className="rating">
                                 <span>4.5/5.0</span>
                                 <span>⭐</span>
                             </div>
+                        </div>
+                        <img src={restaurant_1} alt='restaurant 1' />
+                        <div className="restaurant-info">
+
                             <h4>Restaurant #1</h4>
                             <p>Lorem ipsum Lorem ipsum</p>
                         </div>
                     </div>
                     <div className='grid-restaurant-item'>
-                        <img src={restaurant_2} alt='restaurant 2' />
-                        <div className="restaurant-info">
+                        <div className='restaurant-info-top'>
                             <div className="rating">
                                 <span>4.0/5.0</span>
                                 <span>⭐</span>
                             </div>
+                        </div>
+                        <img src={restaurant_2} alt='restaurant 2' />
+                        <div className="restaurant-info">
+
                             <h4>Restaurant #2</h4>
                             <p>Lorem ipsum Lorem ipsum</p>
                         </div>
                     </div>
                     <div className='grid-restaurant-item large'>
-                        <img src={restaurant_3} alt='restaurant 3' />
-                        <div className="restaurant-info">
+                        <div className='restaurant-info-top'>
                             <div className="rating">
-                                <span>4.8/5.0</span>
+                                <span>4.0/5.0</span>
                                 <span>⭐</span>
                             </div>
+                        </div>
+                        <img src={restaurant_3} alt='restaurant 3' />
+                        <div className="restaurant-info">
+
                             <h4>Restaurant #3</h4>
                             <p>Lorem ipsum Lorem ipsum</p>
                         </div>
                     </div>
-                    <div className='grid-restaurant-item'>
-                        <img src={restaurant_4} alt='restaurant 4' />
-                        <div className="restaurant-info">
+                    <div className='grid-restaurant-item '>
+                        <div className='restaurant-info-top'>
                             <div className="rating">
-                                <span>4.3/5.0</span>
+                                <span>4.0/5.0</span>
                                 <span>⭐</span>
                             </div>
+                        </div>
+                        <img src={restaurant_4} alt='restaurant 4' />
+                        <div className="restaurant-info">
                             <h4>Restaurant #4</h4>
                             <p>Lorem ipsum Lorem ipsum</p>
                         </div>
                     </div>
                     <div className='grid-restaurant-item'>
-                        <img src={restaurant_5} alt='restaurant 5' />
-                        <div className="restaurant-info">
+                        <div className='restaurant-info-top'>
                             <div className="rating">
-                                <span>4.6/5.0</span>
+                                <span>4.0/5.0</span>
                                 <span>⭐</span>
                             </div>
+                        </div>
+                        <img src={restaurant_5} alt='restaurant 5' />
+                        <div className="restaurant-info">
                             <h4>Restaurant #5</h4>
                             <p>Lorem ipsum Lorem ipsum</p>
                         </div>
                     </div>
                     <div className='grid-restaurant-item'>
-                        <img src={restaurant_6} alt='restaurant 6' />
-                        <div className="restaurant-info">
+                        <div className='restaurant-info-top'>
                             <div className="rating">
-                                <span>4.2/5.0</span>
+                                <span>4.0/5.0</span>
                                 <span>⭐</span>
                             </div>
+                        </div>
+                        <img src={restaurant_6} alt='restaurant 6' />
+                        <div className="restaurant-info">
                             <h4>Restaurant #6</h4>
                             <p>Lorem ipsum Lorem ipsum</p>
                         </div>
                     </div>
                     <div className='grid-restaurant-item'>
-                        <img src={restaurant_7} alt='restaurant 7' />
-                        <div className="restaurant-info">
+                        <div className='restaurant-info-top'>
                             <div className="rating">
-                                <span>4.7/5.0</span>
+                                <span>4.0/5.0</span>
                                 <span>⭐</span>
                             </div>
+                        </div>
+                        <img src={restaurant_7} alt='restaurant 7' />
+                        <div className="restaurant-info">
                             <h4>Restaurant #7</h4>
                             <p>Lorem ipsum Lorem ipsum</p>
                         </div>
                     </div>
                     <div className='grid-restaurant-item'>
-                        <img src={restaurant_8} alt='restaurant 8' />
-                        <div className="restaurant-info">
+                        <div className='restaurant-info-top'>
                             <div className="rating">
-                                <span>4.1/5.0</span>
+                                <span>4.0/5.0</span>
                                 <span>⭐</span>
                             </div>
+                        </div>
+                        <img src={restaurant_8} alt='restaurant 8' />
+                        <div className="restaurant-info">
+
                             <h4>Restaurant #8</h4>
+                            <p>Lorem ipsum Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <div className='grid-restaurant-item'>
+                        <div className='restaurant-info-top'>
+                            <div className="rating">
+                                <span>4.0/5.0</span>
+                                <span>⭐</span>
+                            </div>
+                        </div>
+                        <img src={restaurant_5} alt='restaurant 9' />
+                        <div className="restaurant-info">
+
+                            <h4>Restaurant #9</h4>
                             <p>Lorem ipsum Lorem ipsum</p>
                         </div>
                     </div>

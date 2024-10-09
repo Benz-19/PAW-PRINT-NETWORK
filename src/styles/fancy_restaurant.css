@@ -23,7 +23,7 @@
 /* Grid Styling */
 .restaurant-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: 200px;
     gap: 20px;
 }
@@ -64,6 +64,18 @@
     flex-direction: column;
 }
 
+.restaurant-info-top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(46, 64, 83, 0.8);
+    padding: 10px;
+    text-align: left;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
 .rating {
     display: flex;
     justify-content: space-between;
@@ -76,7 +88,18 @@
     font-family: 'Josefin Sans';
 }
 
+.restaurant-info-top h4 {
+    margin: 5px 0;
+    font-family: 'Josefin Sans';
+}
+
 .restaurant-info p {
+    font-family: 'Josefin Sans';
+    margin: 0;
+    font-size: 12px;
+}
+
+.restaurant-info-top p {
     font-family: 'Josefin Sans';
     margin: 0;
     font-size: 12px;
