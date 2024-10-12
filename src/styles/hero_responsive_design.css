@@ -1,4 +1,4 @@
-@media screen and (min-width:900px)and (max-width:1115px) {
+@media screen and (min-width:900px)and (max-width:1180px) {
     .hero-section .hero-img-cont .background-img {
         height: 900px;
     }
@@ -9,6 +9,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        top: 100px;
     }
 
     .hero-content form {
@@ -118,6 +119,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        top: 100px;
     }
 
     .hero-content form {
@@ -239,7 +241,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        top: 7%;
+        top: 12%;
     }
 
     .hero-content form {
@@ -378,7 +380,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        top: 5%;
+        top: 12%;
     }
 
     .hero-content form {
@@ -528,7 +530,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        top: 3%;
+        top: 5%;
     }
 
     .hero-content form {
@@ -831,7 +833,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        top: 3%;
+        top: 4%;
     }
 
     .hero-content form {
@@ -1002,7 +1004,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        top: 3%;
+        top: 5%;
     }
 
     .hero-content form {
